@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head prefix="og:http://ogp.me/ns#">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <title>π</title>
+    <link rel="icon" href="images/icon.png" sizes="16x16" type="image/png">
+    <meta name="description" content="π">
+    <meta property="og:url" content="https://3.1415.world/">
+    <meta property="og:title" ontent="π">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="π">
+    <meta property="og:site_name" content="π">
+    <meta name="twitter:card" content="summary" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<header>3.1415.world</header>
+<body>
+    <article>
+        <h1>円周率πをモンテカルロ法で求める</h1>
+        <p>モンテカルロ法とは乱数を用いた試行を繰り返すことで近似解を求める数値計算手法である.</p>
+        <p>円周率πをモンテカルロ法で求める</p>
+        <ol>
+            <li>範囲が0以上1以下のx,y座標を乱数でn個生成する.</li>
+            <li>1×1の平面上グラフ上にx,yをプロットする.</li>
+            <li>原点からの距離が1以下にプロットされた点の個数を測定する.</li>
+            <li>原点からの距離が1以下な点がx個あったとすると、πの近似値は4x/nとなる.</li>
+        </ol>
+    </article>
+    <section id="pi">
+        <canvas id="canvas" width="300px" height="300px"></canvas>
+        <div>
+            <div>結果 : π ≒ <span id="result-num"></span></div>
+            <input type="number" id="num">
+            <input type="submit" value="プロット" onclick="plot()">
+        </div>
+    </section>
+    <script src="script/pi.js"></script>
+</body>
+</html>
