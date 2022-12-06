@@ -10,8 +10,8 @@ script - pi.js : 実際に実行されるプログラム.
 ```
 ### 収束計算
 ```
-converge - converge.html : 収束を求め、グラフを表示させる用.  
-converge - script - converge.js : 実際に実行されるプログラム.
+converge.html : 収束を求め、グラフを表示させる用.  
+script - converge.js : 実際に実行されるプログラム.
 ```
 
 ## サンプル画像
