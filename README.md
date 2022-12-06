@@ -16,7 +16,7 @@ converge - script - converge.js : 実際に実行されるプログラム.
 
 ## サンプル画像
 ### 円周率計算
-![image](https://user-images.githubusercontent.com/74352831/205846447-5e1fb2d5-d560-43b5-b8c5-c3b0fa526e32.png)
+![image](https://user-images.githubusercontent.com/74352831/205846447-5e1fb2d5-d560-43b5-b8c5-c3b0fa526e32.png)  
 点の数を指定し、指定された数を用いてプログラムを実行します.  
 サンプル画像は点の数10000個で結果は3.1472
 ### 収束計算
