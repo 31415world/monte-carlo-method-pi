@@ -13,7 +13,7 @@ converge.html : 収束を求め、グラフを表示させる用.
 script - converge.js : 実際に実行されるプログラム.
 ```
 
-## サンプル画像
+## サンプル
 ### 円周率計算
 ![image](https://user-images.githubusercontent.com/74352831/205846447-5e1fb2d5-d560-43b5-b8c5-c3b0fa526e32.png)  
 点の数を指定し、指定された数を用いてプログラムを実行する.  
