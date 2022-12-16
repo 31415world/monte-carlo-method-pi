@@ -5,12 +5,12 @@
 ### 円周率計算
 ```
 index.html : 値入力用、グラフィック表示、ここからプログラムを実行.  
-script - pi.js : 実際に実行されるプログラム.  
+script/pi.js : 実際に実行されるプログラム.  
 ```
 ### 収束計算
 ```
 converge.html : 収束を求め、グラフを表示させる用.  
-script - converge.js : 実際に実行されるプログラム.
+script/converge.js : 実際に実行されるプログラム.
 ```
 
 ## サンプル
